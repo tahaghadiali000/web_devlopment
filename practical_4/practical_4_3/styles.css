@@ -1,0 +1,72 @@
+/* Container styling */
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #ecf0f1;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+/* Relative Box styling */
+.relative-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Absolute Box styling */
+.absolute-box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: 100px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Z-index examples */
+.z-index-box {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.box1, .box2, .box3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.box1 {
+    background-color: #8e44ad;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.box2 {
+    background-color: #f39c12;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.box3 {
+    background-color: #27ae60;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
