@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1 style="text-align: center">Registration Form</h1>
+    <form>
+        <label for="F_Name" id="F_Name">F_Name: </label><input type="text"><br><br>
+        <label for="M_Name" id="M_Name">M_Name: </label> <input type="text"><br><br>
+        <label for="L_Name" id="L_Name">L_Name: </label> <input type="text"><br><br>
+        <label for="Password" id="Password">Password: </label> <input type="password"><br><br>
+        <label for="Confirm Password" id=" Confirm Password">Confirm Password: </label> <input type="password"><br><br>
+        <label for="Gender" id="Gender">Gender: </label> <input type="radio" name="gender">Male <input type="radio" name="gender">Female <br><br>
+        <label for="Address" id="Address">Address: </label> <textarea rows="4" cols="20"></textarea><br><br>
+        <label for="Hobbies" id="Hobbies">Hobbies: </label> <input type="checkbox">Play <input type="checkbox">Dance <input type="checkbox">Reading <br><br>
+        <label for="Color" id="Color">Color: </label> <input type="color"><br><br>
+        <label for="Date" id="Date">Date: </label> <input type="date"><br><br>
+        <label for="Mobile" id="Mobile">Mobile: </label> <input type="text"><br><br>
+        <label for="Department" id="Department">Department: </label> 
+                    <select name="Department" id="Department"><option value="CS">Computer Science</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="CSD">Computer Science & Design</option>
+                    <option value="AI/DS">Artificial Intelligence & Data Science</option>
+                    </select> <br><br>
+        <label for="Resume" id="Resume">Resume: </label> <input type="file"><br><br>
+        <button type="submit">Submit</button> <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
