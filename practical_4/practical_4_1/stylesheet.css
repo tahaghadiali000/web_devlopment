@@ -1,0 +1,47 @@
+/* Styling using class */
+.header {
+    color: #2c3e50;  /* Text color */
+    font-size: 24px; /* Font size */
+    text-align: center; /* Center align text */
+    background-color: #ecf0f1; /* Background color */
+    padding: 10px; /* Padding */
+}
+
+/* Styling using ID */
+#intro {
+    color: #8e44ad;  /* Text color */
+    font-size: 18px; /* Font size */
+    background-color: #f5f5f5; /* Background color */
+    padding: 5px; /* Padding */
+    border: 1px solid #ccc; /* Border */
+}
+
+/* Styling a class */
+.content {
+    background-color: #e74c3c; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 15px; /* Padding */
+    margin-top: 10px; /* Margin */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling a class */
+.button {
+    background-color: #3498db; /* Background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline block */
+    font-size: 16px; /* Font size */
+    margin: 10px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Changing properties on hover */
+.button:hover {
+    background-color: #2980b9; /* Background color on hover */
+    color: #ecf0f1; /* Text color on hover */
+}
